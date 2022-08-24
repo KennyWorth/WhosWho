@@ -1,0 +1,202 @@
+.play-button {
+    height: 10vh;
+    width: 25vw;
+    border-radius: 5px;
+    border: black;
+    border-style: groove;
+    background-color: #1ed760;
+}
+
+.game-header {
+    background: #6929a5;
+    color: #81de76;
+    border-style: solid;
+    border-radius: 1em;
+    height: 10vh;
+    padding-top: 2vh;
+    font-size: 3em;
+    text-align: center;
+}
+
+.config-option-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #360454;
+    border-style: solid;
+    border-radius: 35px;
+}
+
+.game-option-container {
+    display: flex;
+    height: 25vh;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ba9ce4;
+    border-style: solid;
+    border-radius: 35px;
+}
+
+select {
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-family: fantasy;
+    text-transform: uppercase;
+    background-color: #360454;
+    color: #81de76;
+}
+
+.submit-button {
+    height: 10vh;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #1ed760;
+    font-family: fantasy;
+    font-size: 1em;
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+    text-transform: uppercase;
+}
+
+.submit-button:hover {
+    background-color: #ccff8c;
+    cursor: pointer;
+}
+
+.option-button {
+    height: 10vh;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #1ed760;
+    font-family: fantasy;
+    font-size: 1em;
+    margin: 1vw;
+}
+
+.option-button:hover {
+    background-color: #81f7aa;
+    cursor: pointer;
+}
+
+.back-button {
+    height: 6vh;
+    width: 16vw;
+    border-radius: 10px;
+    background-color: #ee650a;
+    font-family: fantasy;
+    font-size: 1em;
+    margin: 1vw;
+}
+
+h5 {
+    margin: 0;
+}
+
+.back-button:hover {
+    background-color: #ff8c8c;
+    cursor: pointer;
+}
+
+.details-h2 {
+    color: #81de76;
+    text-shadow: 0 0 9px #4b1a5f, 0 0 17px #310676;
+}
+
+.info-h1 {
+    text-shadow: 0 0 9px #4b1a5f, 0 0 17px #310676;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.input-select {
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-family: fantasy;
+    text-transform: uppercase;
+    background-color: #360454;
+    color: #81de76;
+    border-color: #1ed760;
+    border-width: 10px;
+    width: 25%;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-over {
+    margin-bottom: 80px;
+}
+
+.centered-container-game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-button {
+    height: 10vh;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #1ed760;
+    font-family: fantasy;
+    font-size: 1em;
+    margin-top: 1vh;
+    margin-bottom: 80px;
+}
+
+.next-button:hover {
+    background-color: #ccff8c;
+    cursor: pointer;
+}
+
+.option-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ba9ce4;
+    border-style: solid;
+    border-radius: 35px;
+}
+
+.iframe-container {
+    height: 11vh;
+    width: 11vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    display: inline;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+}
+
+.image-cropper {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.app-style {
+    background: #bdb7d7;
+    height: 94vh;
+    border-radius: 1em;
+    border-style: solid;
+    padding: 10px;
+}
